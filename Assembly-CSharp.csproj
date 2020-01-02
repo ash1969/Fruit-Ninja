@@ -54,6 +54,7 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\Scripts\Fruit.cs" />
+     <Compile Include="Assets\Scripts\Spawner.cs" />
  <Reference Include="UnityEditor.StandardEvents">
  <HintPath>C:/Users/Dell/Documents/Fruit Ninja Clone/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
  </Reference>
