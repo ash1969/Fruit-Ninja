@@ -6,13 +6,6 @@ public class Fruit : MonoBehaviour {
 
     public GameObject slicedFruitPrefab;
 
-    private void Update()
-    {
-        if(Input.GetKeyDown(KeyCode.Space))
-        {
-            CreateSlicedFruit();
-        }
-    }
     
     public void CreateSlicedFruit()
     {
@@ -28,5 +21,17 @@ public class Fruit : MonoBehaviour {
 
         Destroy(inst.gameObject, 5);
         Destroy(gameObject);
+    }
+
+    private void OnTriggerEnter2D(Collider2D collision)
+    {
+        Blade b = collision.GetComponent<Blade>();
+
+        if (!b)
+            return;
+        else
+        {
+            CreateSlicedFruit();
+        }
     }
 }

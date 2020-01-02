@@ -21,7 +21,6 @@ public class Blade : MonoBehaviour
 
     private void SetBladeToMouse()
     {
-        Camera.main.enabled = true;
         var mousePos = Input.mousePosition;
         mousePos.z = 10; // distance of 10 units from the camera
 
