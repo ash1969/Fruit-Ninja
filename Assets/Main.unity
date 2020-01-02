@@ -263,59 +263,45 @@ Prefab:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 4016310243200888, guid: d90332c6d428e224eabd924a7b7587e4, type: 2}
+    - target: {fileID: 4237595049921628, guid: 6f5ddbdcadae5194c991d78cfd0890e9, type: 2}
       propertyPath: m_LocalPosition.x
       value: -0.53
       objectReference: {fileID: 0}
-    - target: {fileID: 4016310243200888, guid: d90332c6d428e224eabd924a7b7587e4, type: 2}
+    - target: {fileID: 4237595049921628, guid: 6f5ddbdcadae5194c991d78cfd0890e9, type: 2}
       propertyPath: m_LocalPosition.y
       value: 2.47
       objectReference: {fileID: 0}
-    - target: {fileID: 4016310243200888, guid: d90332c6d428e224eabd924a7b7587e4, type: 2}
+    - target: {fileID: 4237595049921628, guid: 6f5ddbdcadae5194c991d78cfd0890e9, type: 2}
       propertyPath: m_LocalPosition.z
       value: 5.89
       objectReference: {fileID: 0}
-    - target: {fileID: 4016310243200888, guid: d90332c6d428e224eabd924a7b7587e4, type: 2}
+    - target: {fileID: 4237595049921628, guid: 6f5ddbdcadae5194c991d78cfd0890e9, type: 2}
       propertyPath: m_LocalRotation.x
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 4016310243200888, guid: d90332c6d428e224eabd924a7b7587e4, type: 2}
+    - target: {fileID: 4237595049921628, guid: 6f5ddbdcadae5194c991d78cfd0890e9, type: 2}
       propertyPath: m_LocalRotation.y
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4016310243200888, guid: d90332c6d428e224eabd924a7b7587e4, type: 2}
+    - target: {fileID: 4237595049921628, guid: 6f5ddbdcadae5194c991d78cfd0890e9, type: 2}
       propertyPath: m_LocalRotation.z
       value: -0
       objectReference: {fileID: 0}
-    - target: {fileID: 4016310243200888, guid: d90332c6d428e224eabd924a7b7587e4, type: 2}
+    - target: {fileID: 4237595049921628, guid: 6f5ddbdcadae5194c991d78cfd0890e9, type: 2}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 4016310243200888, guid: d90332c6d428e224eabd924a7b7587e4, type: 2}
+    - target: {fileID: 4237595049921628, guid: 6f5ddbdcadae5194c991d78cfd0890e9, type: 2}
       propertyPath: m_RootOrder
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 1225109410000290, guid: 6f5ddbdcadae5194c991d78cfd0890e9, type: 2}
+      propertyPath: m_Name
+      value: Orange
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: d90332c6d428e224eabd924a7b7587e4, type: 2}
+  m_SourcePrefab: {fileID: 100100000, guid: 6f5ddbdcadae5194c991d78cfd0890e9, type: 2}
   m_IsPrefabAsset: 0
---- !u!1 &1035100838 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1311247280952042, guid: d90332c6d428e224eabd924a7b7587e4,
-    type: 2}
-  m_PrefabInternal: {fileID: 1035100837}
---- !u!114 &1035100839
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInternal: {fileID: 0}
-  m_GameObject: {fileID: 1035100838}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1f632560892243b42a4aa65d8b4ce999, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  slicedFruitPrefab: {fileID: 1538631628336952, guid: 4a64425ef0634084891104cdcadbf11b,
-    type: 2}
 --- !u!1 &1127241867
 GameObject:
   m_ObjectHideFlags: 0
@@ -399,7 +385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2c57aec63558de748bc3db8f85883d43, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  fruitToSpawn: {fileID: 1311247280952042, guid: d90332c6d428e224eabd924a7b7587e4,
+  fruitToSpawn: {fileID: 1225109410000290, guid: 6f5ddbdcadae5194c991d78cfd0890e9,
     type: 2}
   spawnPlaces:
   - {fileID: 1473579155}
