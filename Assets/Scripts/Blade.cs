@@ -24,8 +24,6 @@ public class Blade : MonoBehaviour
         var mousePos = Input.mousePosition;
         mousePos.z = 10; // distance of 10 units from the camera
 
-        Debug.Log(Camera.main);
-        Debug.Log(Input.mousePosition);
         rb.position = Camera.main.ScreenToWorldPoint(mousePos);
 
     }
